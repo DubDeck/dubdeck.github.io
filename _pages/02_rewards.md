@@ -4,11 +4,8 @@ title: "The impact of Incentives on Participants"
 layout: single
 classes: wide
 read_time: true
-sidebar:
-  - text: "Author"
-  - title: "Brent"
-  - text: "Student"
-  - text: "University of Washington"
+author_profile: True
+author: Lucas C
 ---
 ![Creative and risk-taking individuals are encouraged to participate by lottery rewards]({{ site.baseurl }}/assets/images/rewards_1.png)
 Creative and risk-taking individuals are encouraged to participate by lottery rewards

@@ -7,9 +7,18 @@ Billy Rick:
   avatar: "/assets/images/bio-photo-2.jpg"
   twitter: "extravagantman"
 
-Cornelius Fiddlebone:
-  name: "Cornelius Fiddlebone"
-  email: "cornelius@thewhip.com"
-  bio: "I ordered what?"
-  avatar: "/assets/images/bio-photo.jpg"
-  twitter: "rhymeswithsackit"
+Brent Gruenke:
+  title: Author
+  name: "Brent Gruenke"
+  uri: "http://brentgruenke.com"
+  email: "brent.gruenke@gmail.com"
+  bio: "HCDE Student"
+  school: "University of Washington"
+  avatar: "/assets/images/bio-photo-2.jpg"
+
+Lucas C:
+  title: Author
+  name: "Lucas C"
+  email: "brent.gruenke@gmail.com"
+  bio: "PhD Student"
+  school: "University of Washington"

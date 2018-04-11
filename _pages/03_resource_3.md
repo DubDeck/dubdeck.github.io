@@ -1,17 +1,15 @@
 ---
 permalink: library/resource_3/
-title: "Resource 1"
+title: "Resource 3"
 layout: single
-author: True
+classes: wide
+read_time: true
+author_profile: true
+author: Brent Gruenke
 categories:
   - gamification
 tags:
   - rewards
-sidebar:
-  - text: "Author"
-  - title: "Brent"
-  - text: "Student"
-  - text: "University of Washington"
 ---
 
 <p>This is an example post of content researchers could upload.

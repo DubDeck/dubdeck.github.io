@@ -1,18 +1,24 @@
 ---
 permalink: library/resource_1/
-title: "Resource 1"
+title: "Social Comparison"
 layout: single
 classes: wide
 read_time: true
 type: pages
-author: Billy Rick
-sidebar:
-  - text: "Author"
-  - title: "Brent"
-  - text: "Student"
-  - text: "University of Washington"
+author: Lucas C
+author_profile: True
 ---
+Lorem ipsum dolor sit amet, eos esse audiam interesset ut. Te affert scaevola mei, illum molestie id eam, eam putent persequeris te. Nec ut illud utroque civibus, ei veri congue viderer qui. In mel omnes laoreet, eu lorem solet cum, pro veritus accusata ea. Et adhuc etiam alienum eam, at sea admodum deserunt voluptatibus.
 
-![Diverse rewards may help attract diverse participant]({{ site.baseurl }}/assets/logo.svg)
-<p>This is an example post of content researchers could upload.
-Easily upload content using Markdown!</p>
+<figure class="half">
+    <a href="/assets/images/500x300.png"><img src="/assets/images/500x300.png"></a>
+    <a href="/assets/images/500x300.png"><img src="/assets/images/500x300.png"></a>
+    <figcaption>Caption describing these two images.</figcaption>
+</figure>
+<figure class= "third">
+<a href="#" class="btn btn--success btn--primary">Download .SKETCH</a>
+
+<a href="#" class="btn btn--success btn--primary">Download .AI</a>
+
+<a href="#" class="btn btn--success btn--primary">Download .PSD</a>
+</figure>
