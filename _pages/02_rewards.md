@@ -2,6 +2,8 @@
 permalink: library/rewards/
 title: "The impact of Incentives on Participants"
 layout: single
+classes: wide
+read_time: true
 sidebar:
   - text: "Author"
   - title: "Brent"

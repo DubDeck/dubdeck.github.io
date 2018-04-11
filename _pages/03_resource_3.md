@@ -2,6 +2,7 @@
 permalink: library/resource_3/
 title: "Resource 1"
 layout: single
+author: True
 categories:
   - gamification
 tags:

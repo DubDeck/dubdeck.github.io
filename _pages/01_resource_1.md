@@ -2,7 +2,10 @@
 permalink: library/resource_1/
 title: "Resource 1"
 layout: single
+classes: wide
+read_time: true
 type: pages
+author: Billy Rick
 sidebar:
   - text: "Author"
   - title: "Brent"
