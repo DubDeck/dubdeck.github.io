@@ -9,6 +9,6 @@ A jekyll website built using [Minimal-Mistakes](https://github.com/mmistakes/min
 * [Google Analytics Tracking](https://analytics.google.com/analytics/web)
 
 # Commands for running locally
-```bundle update```
-```bundle exec jekyll build --watch```
-```bundle exec jekyll serve --watch```
+To update gems `bundle update`
+To build `bundle exec jekyll build --watch`
+To serve locally `bundle exec jekyll serve --watch`
