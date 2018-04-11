@@ -7,16 +7,16 @@ read_time: true
 author_profile: True
 author: Lucas C
 ---
-![Creative and risk-taking individuals are encouraged to participate by lottery rewards]({{ site.baseurl }}/assets/images/rewards_1.png)
+![Creative and risk-taking individuals are encouraged to participate by lottery rewards](/assets/images/rewards_1.png)
 Creative and risk-taking individuals are encouraged to participate by lottery rewards
 
-![Donation rewards may be more effective at attracting prosocial individuals and behaviors]({{ site.baseurl }}/assets/images/rewards_2.png)
+![Donation rewards may be more effective at attracting prosocial individuals and behaviors](/assets/images/rewards_2.png)
 Donation rewards may be more effective at attracting prosocial individuals and behaviors
 
-![Diverse rewards may help attract diverse participant]({{ site.baseurl }}/assets/images/rewards_3.png)
+![Diverse rewards may help attract diverse participant](/assets/images/rewards_3.png)
 Diverse rewards may help attract diverse participant
 
-![For some rewards, the amount matters; for some rewards, the amount does not]({{ site.baseurl }}/assets/images/rewards_4.png)
+![For some rewards, the amount matters; for some rewards, the amount does not](/assets/images/rewards_4.png)
 For some rewards, the amount matters; for some rewards, the amount does not
 
 <embed src="{{ site.baseurl }}/assets/research/hsieh-CSCW2016-incentives.pdf" width="800px" height="1080px" />
