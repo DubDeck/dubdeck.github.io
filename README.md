@@ -11,4 +11,4 @@ A jekyll website built using [Minimal-Mistakes](https://github.com/mmistakes/min
 # Commands for running locally
 To update gems `bundle update`\
 To build `bundle exec jekyll build --watch`\
-To serve locally `bundle exec jekyll serve --watch`\
+To serve locally `bundle exec jekyll serve --watch`
