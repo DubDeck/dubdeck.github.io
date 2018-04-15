@@ -8,7 +8,6 @@ Billy Rick:
   twitter: "extravagantman"
 
 Brent Gruenke:
-  title: Author
   name: "Brent Gruenke"
   uri: "http://brentgruenke.com"
   email: "brent.gruenke@gmail.com"
@@ -17,8 +16,9 @@ Brent Gruenke:
   avatar: "/assets/images/bio-photo-2.jpg"
 
 Lucas C:
-  title: Author
   name: "Lucas C"
+  uri: "http://brentgruenke.com"
   email: "brent.gruenke@gmail.com"
   bio: "PhD Student"
   school: "University of Washington"
+  avatar: "/assets/images/bio-photo-2.jpg"

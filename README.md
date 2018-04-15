@@ -5,7 +5,7 @@ A jekyll website built using [Minimal-Mistakes](https://github.com/mmistakes/min
 # List of Resources
 * [Jekyll Documentation](https://jekyllrb.com/docs/home/)
 * [Minimal Mistakes Documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
-* [Algolia Search Platform](www.algolia.com/)
+* [Algolia Search Platform](https://www.algolia.com/)
 * [Google Analytics Tracking](https://analytics.google.com/analytics/web)
 
 # Commands for running locally

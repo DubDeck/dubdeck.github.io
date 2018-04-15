@@ -2,8 +2,6 @@
 main:
   - title: "Library"
     url: /library/
-  - title: "About"
-    url: /about/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
