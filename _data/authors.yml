@@ -13,7 +13,15 @@ Brent Gruenke:
   bio: "HCDE Student"
   school: "University of Washington"
   uri: "http://brentgruenke.com"
-  email: "brent.gruenke@gmail.com"
+  email: "bgruenke@uw.edu"
+
+Lucas C:
+  name: "Lucas C"
+  avatar: "/assets/images/bio-photo-2.jpg"
+  bio: "HCDE PhD Student"
+  school: "University of Washington"
+  uri: "http://brentgruenke.com"
+  email: "bgruenke@uw.edu"
 
 #author:
   #name             : "DubDeck"
