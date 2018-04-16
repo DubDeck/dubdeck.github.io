@@ -5,8 +5,8 @@ layout: single
 classes: wide
 read_time: true
 type: pages
-author: Lucas C
 author_profile: True
+author: Brent Gruenke
 ---
 Lorem ipsum dolor sit amet, eos esse audiam interesset ut. Te affert scaevola mei, illum molestie id eam, eam putent persequeris te. Nec ut illud utroque civibus, ei veri congue viderer qui. In mel omnes laoreet, eu lorem solet cum, pro veritus accusata ea. Et adhuc etiam alienum eam, at sea admodum deserunt voluptatibus.
 

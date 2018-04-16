@@ -5,7 +5,7 @@ layout: single
 classes: wide
 read_time: true
 author_profile: True
-author: Lucas C
+author: Brent Gruenke
 ---
 ![Creative and risk-taking individuals are encouraged to participate by lottery rewards](/assets/images/rewards_1.png)
 Creative and risk-taking individuals are encouraged to participate by lottery rewards
