@@ -8,7 +8,7 @@ type: pages
 author_profile: True
 author: Lucas C
 ---
-<div> Lorem ipsum dolor sit amet, eos esse audiam interesset ut. Te affert scaevola mei, illum molestie id eam, eam putent persequeris te. Nec ut illud utroque civibus, ei veri congue viderer qui. In mel omnes laoreet, eu lorem solet cum, pro veritus accusata ea. Et adhuc etiam alienum eam, at sea admodum deserunt voluptatibus. </div>
+Lorem ipsum dolor sit amet, eos esse audiam interesset ut. Te affert scaevola mei, illum molestie id eam, eam putent persequeris te. Nec ut illud utroque civibus, ei veri congue viderer qui. In mel omnes laoreet, eu lorem solet cum, pro veritus accusata ea. Et adhuc etiam alienum eam, at sea admodum deserunt voluptatibus.
 
 <figure class="half">
     <a href="/assets/images/500x300.png"><img src="/assets/images/500x300.png"></a>
