@@ -7,9 +7,17 @@ read_time: true
 author_profile: true
 author: Brent Gruenke
 categories:
-  - gamification
+  - social Comparison
+  - goal setting
+  - theory of planned behavior
+  - social cognitive theory
+  - cognitive biases
+  - health belief model
 tags:
-  - rewards
+  - understanding
+  - brainstorming
+  - building
+  - advocating
 ---
 
 <p>This is an example post of content researchers could upload.
