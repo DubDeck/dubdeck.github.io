@@ -1,10 +1,7 @@
 ---
 permalink: library/resource_3/
 title: "Resource 3"
-layout: single
-classes: wide
-read_time: true
-author_profile: true
+type: pages
 author: Brent Gruenke
 categories:
   - social Comparison

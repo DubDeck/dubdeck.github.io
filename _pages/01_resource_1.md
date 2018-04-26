@@ -1,11 +1,7 @@
 ---
 permalink: library/resource_1/
-title: "Social Comparison"
-layout: single
-classes: wide
-read_time: true
 type: pages
-author_profile: True
+title: "Social Comparison"
 author: Lucas C
 categories:
   - social Comparison
