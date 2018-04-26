@@ -1,5 +1,5 @@
 ---
-permalink: library/monkeysaymonkeydo/
+permalink: library/monkeyseemonkeydo/
 title: "Monkey see Monkey Do"
 layout: single
 classes: wide
