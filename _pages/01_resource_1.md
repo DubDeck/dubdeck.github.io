@@ -1,5 +1,5 @@
 ---
-permalink: library/resource_1/
+permalink: stories/resource_1/
 type: pages
 title: "Social Comparison"
 author: Lucas C

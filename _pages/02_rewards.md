@@ -1,5 +1,5 @@
 ---
-permalink: library/rewards/
+permalink: stories/rewards/
 title: "The impact of Incentives on Participants"
 type: pages
 author: Brent Gruenke

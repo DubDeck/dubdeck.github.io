@@ -1,5 +1,5 @@
 ---
-permalink: library/monkeyseemonkeydo/
+permalink: stories/monkeyseemonkeydo/
 title: "Monkey see Monkey Do"
 type: pages
 author: Lucas C

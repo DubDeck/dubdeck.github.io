@@ -1,5 +1,5 @@
 ---
-permalink: library/resource_3/
+permalink: stories/resource_3/
 title: "Resource 3"
 type: pages
 author: Brent Gruenke
