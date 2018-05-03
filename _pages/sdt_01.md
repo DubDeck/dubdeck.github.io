@@ -1,10 +1,7 @@
 ---
 permalink: library/monkeyseemonkeydo/
 title: "Monkey see Monkey Do"
-layout: single
-classes: wide
-read_time: true
-author_profile: true
+type: pages
 author: Lucas C
 categories:
   - Social Cognitive Theory
