@@ -2,7 +2,7 @@
 permalink: stories/resource_3/
 title: "Resource 3"
 type: pages
-author: Brent Gruenke
+author: Brent G
 categories:
   - social Comparison
   - goal setting
