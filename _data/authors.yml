@@ -1,14 +1,5 @@
-
-Billy Rick:
-  name: "Billy Rick"
-  uri: "http://thewhip.com"
-  email: "billy@rick.com"
-  bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: "/assets/images/bio-photo-2.jpg"
-  twitter: "extravagantman"
-
 Brent G:
-  name: "Brent G"
+  name: "Brent Gruenke"
   avatar: "/assets/images/bio-photo-2.jpg"
   bio: "HCDE Student"
   school: "University of Washington"
@@ -16,12 +7,52 @@ Brent G:
   email: "bgruenke@uw.edu"
 
 Lucas C:
-  name: "Lucas C"
+  name: "Lucas Colusso"
   avatar: "/assets/images/bio-photo-2.jpg"
-  bio: "HCDE PhD Student"
+  bio: "Ph.D. Candidate"
   school: "University of Washington"
   uri: "http://lucascolusso.com"
   email: "colusso@uw.edu"
+
+Gary H:
+  name: "Gary Hsieh"
+  avatar: "/assets/images/bio-photo-2.jpg"
+  bio: "Associate Professor"
+  school: "University of Washington"
+  uri: "https://faculty.washington.edu/garyhs/"
+  email: "garyhs@uw.edu"
+
+Elena A:
+  name: "Elena Agapie"
+  avatar: "/assets/images/bio-photo-2.jpg"
+  bio: "Ph.D. Candidate"
+  school: "University of Washington"
+  uri: "http://eagapie.com/"
+  email: "eagapie@uw.edu"
+
+Mia S:
+  name: "Mia Suh"
+  avatar: "/assets/images/bio-photo-2.jpg"
+  bio: "Ph.D. Candidate"
+  school: "University of Washington"
+  uri: "http://miasuh.info/"
+  email: "miasuh@uw.edu"
+
+Kerem O:
+  name: "Kerem Ozcan"
+  avatar: "/assets/images/bio-photo-2.jpg"
+  bio: "Ph.D. Candidate"
+  school: "University of Washington"
+  uri: "https://about.me/keremozcan"
+  email: "kozcan@uw.edu"
+
+Rafal K:
+  name: "Rafal Kocielnik"
+  avatar: "/assets/images/bio-photo-2.jpg"
+  bio: "Ph.D. Candidate"
+  school: "University of Washington"
+  uri: "https://about.me/keremozcan"
+  email: "rkoc@uw.edu"
 
 #author:
   #name             : "DubDeck"
