@@ -1,12 +1,14 @@
 ---
-permalink: library/resource_1/
-title: "Social Comparison"
-layout: single
-classes: wide
-read_time: true
+permalink: stories/resource_1/
 type: pages
-author_profile: True
+title: "Social Comparison"
 author: Lucas C
+categories:
+  - social Comparison
+  - goal setting
+tags:
+  - understanding
+  - brainstorming
 ---
 Lorem ipsum dolor sit amet, eos esse audiam interesset ut. Te affert scaevola mei, illum molestie id eam, eam putent persequeris te. Nec ut illud utroque civibus, ei veri congue viderer qui. In mel omnes laoreet, eu lorem solet cum, pro veritus accusata ea. Et adhuc etiam alienum eam, at sea admodum deserunt voluptatibus.
 

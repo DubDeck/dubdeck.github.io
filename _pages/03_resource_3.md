@@ -1,15 +1,20 @@
 ---
-permalink: library/resource_3/
+permalink: stories/resource_3/
 title: "Resource 3"
-layout: single
-classes: wide
-read_time: true
-author_profile: true
-author: Brent Gruenke
+type: pages
+author: Brent G
 categories:
-  - gamification
+  - social Comparison
+  - goal setting
+  - theory of planned behavior
+  - social cognitive theory
+  - cognitive biases
+  - health belief model
 tags:
-  - rewards
+  - understanding
+  - brainstorming
+  - building
+  - advocating
 ---
 
 <p>This is an example post of content researchers could upload.

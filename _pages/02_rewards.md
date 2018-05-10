@@ -1,11 +1,16 @@
 ---
-permalink: library/rewards/
+permalink: stories/rewards/
 title: "The impact of Incentives on Participants"
-layout: single
-classes: wide
-read_time: true
-author_profile: True
-author: Brent Gruenke
+type: pages
+author: Brent G
+categories:
+  - social Comparison
+  - goal setting
+tags:
+  - understanding
+  - brainstorming
+  - building
+  - advocating
 ---
 ![Creative and risk-taking individuals are encouraged to participate by lottery rewards](/assets/images/rewards_1.png)
 Creative and risk-taking individuals are encouraged to participate by lottery rewards
