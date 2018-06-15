@@ -18,8 +18,6 @@ DOs
 <input type="checkbox">Use social reinforcement for positive behavior change
 <input type="checkbox">Align the benefits of the intended behavior with social norms
 
-
-
 DON’Ts
 <input type="checkbox">Leverage discouraging or demeaning language if the user decides to not move forward with the “accepted” behavior.
 <input type="checkbox">Use negative language or make users feel bad about making mistakes
