@@ -1,10 +1,12 @@
 ---
-title:  "Incentives reading list"
+title:  "Incentives"
 header:
 categories:
   - Incentives
 tags:
-  - Reading list
+  - Publications
+author: Gary H
+
 ---
 
 Fiske, A. P. (1992). The Four Elementary Forms of Sociality: Framework for a Unified Theory of Social Relations. Psychological Review, 99, 689-723
