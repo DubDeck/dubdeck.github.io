@@ -1,10 +1,10 @@
 ---
-title:  "Incentives reading list"
+title:  "Incentives"
 header:
 categories:
   - Incentives
 tags:
-  - Reading list
+  - Publications
 author: Gary H
 
 ---

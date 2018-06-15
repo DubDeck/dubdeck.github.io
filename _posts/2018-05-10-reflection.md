@@ -1,10 +1,10 @@
 ---
-title:  "Reflection reading list"
+title:  "Reflection"
 header:
 categories:
   - Reflection
 tags:
-  - Reading list
+  - Publications
 author: Rafal K
 ---
 
