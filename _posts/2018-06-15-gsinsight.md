@@ -1,0 +1,41 @@
+---
+title:  "Set high goals to propel the high performance cycle"
+header:
+categories:
+  - Goal-setting
+tags:
+  - Insights
+author: Tess
+---
+
+High goals build trust in a person’s ability to accomplish an action, which, in turn, encourages high task performance. Satisfaction resulting from high achievement further drives this high performance cycle.  
+
+<figure>
+    <a href="/assets/images/gs01.jpg">
+      <img src="/assets/images/gs01.jpg">
+    </a>
+    <figcaption>
+      credit
+      <a href="http://www.times-georgian.com/">times-georgian.com
+      </a>
+    </figcaption>
+</figure>
+
+For example, child athletes that set high goals sometimes achieve performance levels that are on par with that of adults. Subsequent recognition, rewards, and satisfaction, encourages even higher goal-setting and performance.
+
+The same Crossfit WODs (workouts of the day) are assigned to expert practitioners and newbies (though novices can take more time to complete their sets). Setting high goals builds Crossfit practitioners’ confidence in their abilities and encourages high performance.
+
+<figure>
+    <a href="/assets/images/gs02.jpg">
+      <img src="/assets/images/gs02.jpg">
+    </a>
+    <figcaption>
+      credit
+      <a href="https://www.sugarwod.com/">SugarWOD.com
+      </a>
+    </figcaption>
+</figure>
+
+“The high-performance cycle explains how high goals leads to high rewards, such as recognition and promotion. Rewards result in high satisfaction as well as high self-efficacy regarding perceived ability to meet future challenges through setting of even higher goals.” [1]
+
+Reference[1] Locke, E. A., & Latham, G. P. (2002). Building a practically useful theory of goal setting and task motivation: A 35-year odyssey. American psychologist, 57(9), 705.
