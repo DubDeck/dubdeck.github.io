@@ -2,7 +2,7 @@
 title:  "Goal-setting"
 header:
 categories:
-  - Health Belief Model
+  - Incentives
 tags:
   - Guidelines
 author: Lucas C
