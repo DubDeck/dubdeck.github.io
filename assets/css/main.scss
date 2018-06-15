@@ -7,9 +7,23 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.masthead{
+.masthead {
   border-bottom: 4px solid #C6E8E8;
+  z-index: 0;
+  position: relative;
 }
+
+.page__footer {
+  z-index: -1;
+  position: relative;
+}
+
+.greedy-nav .visible-links {
+  display: none;
+}
+
+
+
 $masthead-link-color: #5E082C;
 $border-color: #C6E8E8;
 $link-color-hover: #C6E8E8;
@@ -19,6 +33,55 @@ $link-color-hover: #C6E8E8;
   width: 400px;
 }
 
-.author__bio{
+.author__bio {
   margin-bottom: 10px;
+}
+
+.feed {
+  z-index: 9999;
+  float: right;
+  position: absolute;
+  height: 120vh;
+  max-width: 25rem;
+  top: 0;
+  right: 0;
+}
+
+.item {
+  font-size: 1.25em;
+  width: 25rem;
+  height: 10vh;
+  line-height: 10vh;
+  text-align: left;
+  padding-left: 1.875rem;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.ib{
+  color: white;
+  background-color: black;
+}
+
+.iy{
+  color: black;
+  background-color: #fffdc3;
+}
+
+.io{
+  color: black;
+  background-color: #ffb661;
+}
+
+.featured {
+  float: left;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  padding: 5px;
+  width: 50%;
 }
