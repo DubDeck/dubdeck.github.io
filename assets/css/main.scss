@@ -17,7 +17,7 @@
 }
 
 .page__footer {
-  margin-top: 4em; 
+  margin-top: 400px;
 }
 
 .greedy-nav .visible-links {
@@ -37,20 +37,18 @@
   z-index: 9999;
   float: right;
   position: absolute;
-  height: 100vh;
-  max-width: 25rem;
+  height: 120vh;
+  max-width: 20rem;
   top: 0;
   right: 0;
 }
 
 .item {
   margin: 0;
-  font-size: 1.25em;
-  width: 25rem;
-  height: 10vh;
-  line-height: 2.5;
+  font-size: .8em;
+  padding: .8rem;
   text-align: left;
-  padding-left: 1.875rem;
+  font-weight: 700 !important;
 }
 
 a:hover, a:visited, a:link, a:active
@@ -62,23 +60,25 @@ a:hover, a:visited, a:link, a:active
   color: white;
   background-color: black;
   font-family: 'Poppins';
-  font-weight: 400px;
+  font-weight: 900 !important;
+  padding: .4rem;
+  padding-left: .8rem;
 }
 
 .iy{
   color: black;
   background-color: #fffdc3;
   font-family: 'Poppins';
-  font-weight: 400px;
 }
 
 .io{
   color: black;
   background-color: #ffb661;
   font-family: 'Poppins';
-  font-weight: 400px;
 }
-
+.item p{
+  margin: 0;
+}
 .featured {
   float: left;
 }
