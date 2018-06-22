@@ -64,6 +64,26 @@ Elise:
   name: "Elise Livingston"
   uri: "http://eliselivingston.design/"
 
+Samantha M:
+  name: "Samantha Muscat-Sherr"
+  uri: "http://sms.design/"
+
+Haley R:
+  name: "Haley Rohl"
+  uri: "https://www.haleyhanda.com/"
+
+Noreen W:
+  name: "Noreen Watson"
+  uri: "https://scholar.google.com/citations?user=v523vxgAAAAJ&hl=en"
+
+Blake T:
+  name: "Blake Tsuzaki"
+  uri: "baddaboo.github.io"
+
+Jose L:
+  name: "José Lara Silva"
+  uri: "http://malvenko.net/"
+
 #author:
   #name             : "DubDeck"
   #avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
