@@ -3,9 +3,12 @@
 ---
 
 @charset "utf-8";
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto');
+
+
+
 
 .masthead {
   border-bottom: 4px solid #FFFFFF;
@@ -14,19 +17,11 @@
 }
 
 .page__footer {
-  z-index: -1;
-  position: relative;
 }
 
 .greedy-nav .visible-links {
   display: none;
 }
-
-
-
-$masthead-link-color: #5E082C;
-$border-color: #C6E8E8;
-$link-color-hover: #C6E8E8;
 
 
 .site-title {
@@ -41,17 +36,18 @@ $link-color-hover: #C6E8E8;
   z-index: 9999;
   float: right;
   position: absolute;
-  height: 120vh;
+  height: 100vh;
   max-width: 25rem;
   top: 0;
   right: 0;
 }
 
 .item {
+  margin: 0;
   font-size: 1.25em;
   width: 25rem;
   height: 10vh;
-  line-height: 10vh;
+  line-height: 2.5;
   text-align: left;
   padding-left: 1.875rem;
 }
@@ -64,16 +60,22 @@ a:hover, a:visited, a:link, a:active
 .ib{
   color: white;
   background-color: black;
+  font-family: 'Poppins';
+  font-weight: 400px;
 }
 
 .iy{
   color: black;
   background-color: #fffdc3;
+  font-family: 'Poppins';
+  font-weight: 400px;
 }
 
 .io{
   color: black;
   background-color: #ffb661;
+  font-family: 'Poppins';
+  font-weight: 400px;
 }
 
 .featured {
