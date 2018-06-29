@@ -1,11 +1,6 @@
 ---
-title:  "Goal-setting"
-header:
-categories:
-  - Incentives
-tags:
-  - Guidelines
-author: Lucas C
+title:  "Incentives dos and donts"
+
 ---
 
 # DOs
