@@ -17,6 +17,10 @@
   font-style: normal;
 }
 
+.page__content a {
+  text-decoration: none;
+}
+
 .masthead {
   border-bottom: 4px solid #FFFFFF;
   z-index: 0;
@@ -28,9 +32,12 @@
 }
 
 .greedy-nav .visible-links {
-  display: none;
+  justify-content: flex-start;
 }
 
+#index .greedy-nav .visible-links {
+  visibility: hidden;
+}
 
 .site-title {
   width: 175px;
@@ -46,8 +53,8 @@
   position: absolute;
   height: 120vh;
   width: 21rem;
-  top: 0;
   right: 0;
+  top: 0;
 }
 
 .item {
@@ -58,6 +65,10 @@
   font-weight: 700 !important;
   font-family: 'Poppins';
   color: black;
+}
+
+.item:hover {
+  background-color: white;
 }
 
 .book:before {
@@ -87,11 +98,6 @@
   font-size: .8em;
 }
 
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-}
-
 .ib {
   color: white;
   background-color: black;
@@ -111,6 +117,7 @@ a:hover, a:visited, a:link, a:active
 .item p{
   margin: 0;
 }
+
 .featured {
   float: left;
 }
