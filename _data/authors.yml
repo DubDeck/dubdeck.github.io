@@ -94,6 +94,18 @@ Erika L:
 Pierre D:
   name: "Pierre Delcourt"
 
+Nicole V:
+  name: "Nicole VanMeter"
+  uri: "https://twitter.com/nicoleavanmeter"
+
+Alik B:
+  name: "Alik Brundrett"
+  uri: "http://www.alik.design/"
+
+Elise L:
+  name: "Elise Livingston"
+  uri: "http://eliselivingston.design/"
+
 #author:
   #name             : "DubDeck"
   #avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
