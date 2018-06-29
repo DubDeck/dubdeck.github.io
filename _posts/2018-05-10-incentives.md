@@ -1,11 +1,6 @@
 ---
-title:  "Incentives"
-header:
-categories:
-  - Incentives
-tags:
-  - Publications
-author: Gary H
+title:  "Incentives reading list"
+
 
 ---
 

@@ -1,10 +1,6 @@
 ---
-title:  "Theory of Planned Behavior"
-header:
-categories:
-  - Theory of Planned Behavior
-tags:
-  - Guidelines
+title:  "Theory of Planned Behavior dos and donts"
+
 author: Lucas C
 ---
 

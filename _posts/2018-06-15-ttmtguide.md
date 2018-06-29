@@ -1,10 +1,6 @@
 ---
-title:  "Transtheoretical Model"
-header:
-categories:
-  - Transtheoretical Model
-tags:
-  - Guidelines
+title:  "Transtheoretical Model dos and donts"
+
 author: Lucas C
 ---
 
