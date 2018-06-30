@@ -7,7 +7,7 @@ sidebar:
   nav: "stories"
 ---
 <h2>
-  <a href="/stories/monkeyseemonkeydo/">Monkey see Monkey Do</a>
+  <a href="/socialcomparison/monkeyseemonkeydo/">Monkey see Monkey Do</a>
 </h2>
 <p>By means of social comparison processes, when we see someone who is “like us” performing or mastering a health behavior, our self-efficacy beliefs can be enhanced.</p>
 

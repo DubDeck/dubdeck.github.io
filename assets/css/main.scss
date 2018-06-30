@@ -36,7 +36,6 @@
 }
 
 #index .greedy-nav .visible-links {
-  visibility: hidden;
 }
 
 .site-title {
@@ -54,7 +53,6 @@
   height: 120vh;
   width: 21rem;
   right: 0;
-  top: 0;
 }
 
 .item {
@@ -71,7 +69,7 @@
   background-color: white;
 }
 
-.book:before {
+.checklist:before {
   content: "\e9ba";
   font-family: "icomoon";
   float: left;
@@ -80,7 +78,7 @@
   font-size: .8em;
 }
 
-.checklist:before {
+.book:before {
   content: "\e91f";
   font-family: "icomoon";
   float: left;
@@ -119,11 +117,45 @@
 }
 
 .featured {
-  float: left;
+  display: inline-block;
+  position: relative;
 }
+
+.featured__image {
+  width: 20%;
+  float: right;
+}
+
+.asset {
+}
+
+.reading {
+
+}
+
+.donts {
+  float: right;
+}
+
+.authorbox{
+  right: 0;
+}
+
+.page__content {
+  font-size: $type-size-6;
+}
+
+.smalltext {
+  font-size: $type-size-8;
+  line-height: 1;
+  bottom: 0px;
+  position: absolute;
+}
+
 
 /* Create three equal columns that sits next to each other */
 .column {
   padding: 5px;
-  width: 50%;
+  width: 20%;
+  float: left;
 }

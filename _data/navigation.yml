@@ -10,7 +10,25 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-stories:
+theories:
+  - title: Social Comparison
+    url: /socialcomparison/
+    
+    children:
+      - title: "Monkey See Monkey Do"
+        url: /socialcomparison/monkeyseemonkeydo/
+      - title: "Monkey See Monkey Don't"
+        url: /socialcomparison/resource_1/
+
+  - title: Goal Setting
+    children:
+      - title: "Set High Goals"
+        url: /goalsetting/sethighgoals/
+      - title: "Set Specific Goals"
+        url: /goalsetting/setspecificgoals/
+      - title: "Encourage Sharing Goals"
+        url: /goalsetting/encouragesharinggoals/
+
   - title: Cognitive Biases
     children:
       - title: "Quick-Start Guide"
@@ -21,19 +39,6 @@ stories:
         url: /docs/installation/
       - title: "Upgrading"
         url: /docs/upgrading/
-
-  - title: Goal Setting
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
 
   - title: Health Belief Model
     children:
@@ -49,13 +54,6 @@ stories:
         url: /docs/utility-classes/
 
   - title: Social Cognitive Theory
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
-
-  - title: Social Comparison
     children:
       - title: "Stylesheets"
         url: /docs/stylesheets/
