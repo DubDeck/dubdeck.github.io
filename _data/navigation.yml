@@ -13,56 +13,18 @@ main:
 theories:
   - title: Social Comparison
     url: /socialcomparison/
-    
-    children:
-      - title: "Monkey See Monkey Do"
-        url: /socialcomparison/monkeyseemonkeydo/
-      - title: "Monkey See Monkey Don't"
-        url: /socialcomparison/resource_1/
 
   - title: Goal Setting
-    children:
-      - title: "Set High Goals"
-        url: /goalsetting/sethighgoals/
-      - title: "Set Specific Goals"
-        url: /goalsetting/setspecificgoals/
-      - title: "Encourage Sharing Goals"
-        url: /goalsetting/encouragesharinggoals/
+    url: /goalsetting/
 
   - title: Cognitive Biases
-    children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+    url: /cognitivebiases/
 
   - title: Health Belief Model
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
+    url: /healthbeliefmodel/
 
   - title: Social Cognitive Theory
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
+    url: /socialcognitivetheory/
 
   - title: Theory of Planned Behavior
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
+    url: /theoryofplannedbehavior/
