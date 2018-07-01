@@ -18,9 +18,12 @@
 }
 
 .masthead {
-  border-bottom: 4px solid #FFFFFF;
-  z-index: 0;
-  position: relative;
+  border-bottom: 0px solid #FFFFFF;
+  z-index: 2;
+  position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
 }
 
 .page__footer {
@@ -46,7 +49,7 @@
   position: absolute;
   height: 120vh;
   width: 21rem;
-  top: 0;
+  top: 4rem;
   right: 0;
 }
 
@@ -113,6 +116,7 @@ a:hover, a:visited, a:link, a:active
 }
 .featured {
   float: left;
+//  top: 4rem;
 }
 
 /* Create three equal columns that sits next to each other */
