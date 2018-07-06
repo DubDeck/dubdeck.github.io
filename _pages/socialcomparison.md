@@ -79,7 +79,7 @@ gallery:
 
   <div class= "featured checklist">
   <h2>Social Comparison Do's and Don'ts!</h2>
-  # DOs <br>
+  DOs <br>
   <input type="checkbox"> Set objective goals
   <br>
   <input type="checkbox"> Set goals that are measurable
@@ -94,7 +94,7 @@ gallery:
   <br>
   </div>
   <div class= "featured">
-  # DON’Ts <br>
+  DON’Ts <br>
   <input type="checkbox"> Don’t set ambiguous goals
   <br>
   <input type="checkbox"> Don’t set goals that are to easy or too difficult
