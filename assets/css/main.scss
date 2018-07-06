@@ -22,9 +22,12 @@
 }
 
 .masthead {
-  border-bottom: 4px solid #FFFFFF;
-  z-index: 0;
-  position: relative;
+  border-bottom: 0px solid #FFFFFF;
+  z-index: 2;
+  position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
 }
 
 .page__footer {
@@ -49,6 +52,10 @@
   position: absolute;
   height: 120vh;
   width: 21rem;
+<<<<<<< HEAD
+=======
+  top: 4rem;
+>>>>>>> a5690e0a09a1b0f386a86da43a6db889b5c8a747
   right: 0;
 }
 
