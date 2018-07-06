@@ -19,6 +19,7 @@
 
 .page__content a {
   text-decoration: none;
+  margin-top: 4em;
 }
 
 .masthead {
@@ -52,10 +53,7 @@
   position: absolute;
   height: 120vh;
   width: 21rem;
-<<<<<<< HEAD
-=======
   top: 4rem;
->>>>>>> a5690e0a09a1b0f386a86da43a6db889b5c8a747
   right: 0;
 }
 
@@ -144,6 +142,7 @@
 
 .page__content {
   font-size: $type-size-6;
+  margin-top: 1em;
 }
 
 .smalltext {
@@ -162,4 +161,5 @@
   padding: 5px;
   width: 20%;
   float: left;
+  margin-top: 1em;
 }
