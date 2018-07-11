@@ -1,11 +1,13 @@
 # main links
 main:
-  - title: "Stories"
-    url: /stories/
+  - title: "Library"
+    url: /
+    description: Explore Designs backed by Research
+
   - title: "Gallery"
     url: /gallery/
-  - title: "Guidelines"
-    url: /guidelines/
+    description: Browse images to inspire you
+
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
@@ -16,6 +18,9 @@ theories:
 
   - title: Goal Setting
     url: /goalsetting/
+
+  - title: Incentives
+    url: /incentives/
 
   - title: Cognitive Biases
     url: /cognitivebiases/
