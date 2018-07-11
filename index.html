@@ -1,97 +1,88 @@
 ---
-layout: splash
+layout: single
 classes: wide
+author_profile: false
+read_time: false
+sidebar:
+  nav: "theories"
 intro:
   - excerpt: 'Download validated assets and methods to improve your designs.'
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
+  - image_path: assets/images/monkeyseemonkeydo_01.jpg
     alt: "placeholder image 1"
     title: "Social Comparison"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/stories/resource_1"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting. #Socialcomparison #goalsetting"
+    url: "/socialcomparison/monkeyseemonkeydo"
     btn_label: "Read More"
     btn_class: "btn btn--success btn--primary"
   - image_path: /assets/images/monkeyseemonkeydo_01.jpg
-    title: "Monkey See Monkey Do"
-    excerpt: "By means of social comparison processes, when we see someone who is “like us” performing or mastering a health behavior, our self-efficacy beliefs can be enhanced."
-    url: "/stories/monkeyseemonkeydo"
+    title: "Monkey Do"
+    excerpt: "By means of social comparison processes."
+    url: "/socialcomparison/monkeyseemonkeydo"
+    btn_label: "Read More"
+    btn_class: "btn btn--success btn--primary"
+  - image_path: /assets/images/monkeyseemonkeydo_01.jpg
+    title: "Monkey Do"
+    excerpt: "By means of social comparison processes."
+    url: "/socialcomparison/monkeyseemonkeydo"
+    btn_label: "Read More"
+    btn_class: "btn btn--success btn--primary"
+feature_row2:
+  - image_path: assets/images/monkeyseemonkeydo_01.jpg
+    alt: "placeholder image 1"
+    title: "Feature Row"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "/socialcomparison/monkeyseemonkeydo"
+    btn_label: "Read More"
+    btn_class: "btn btn--success btn--primary"
+  - image_path: /assets/images/monkeyseemonkeydo_01.jpg
+    title: "Monkey See"
+    excerpt: "By means of social comparison processes."
+    url: "/socialcomparison/monkeyseemonkeydo"
+    btn_label: "Read More"
+    btn_class: "btn btn--success btn--primary"
+  - image_path: /assets/images/monkeyseemonkeydo_01.jpg
+    title: "Monkey Do"
+    excerpt: "By means of social comparison processes."
+    url: "/socialcomparison/monkeyseemonkeydo"
+    btn_label: "Read More"
+    btn_class: "btn btn--success btn--primary"
+feature_row3:
+  - image_path: assets/images/monkeyseemonkeydo_01.jpg
+    alt: "placeholder image 1"
+    title: "Feature Row"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "/socialcomparison/monkeyseemonkeydo"
+    btn_label: "Read More"
+    btn_class: "btn btn--success btn--primary"
+  - image_path: /assets/images/monkeyseemonkeydo_01.jpg
+    title: "Monkey See"
+    excerpt: "By means of social comparison processes."
+    url: "/socialcomparison/monkeyseemonkeydo"
+    btn_label: "Read More"
+    btn_class: "btn btn--success btn--primary"
+  - image_path: /assets/images/monkeyseemonkeydo_01.jpg
+    title: "Monkey Do"
+    excerpt: "By means of social comparison processes."
+    url: "/socialcomparison/monkeyseemonkeydo"
     btn_label: "Read More"
     btn_class: "btn btn--success btn--primary"
 ---
 
-<div class = "container">
-  <div class = "feed">
-    <a href="/stories/">
-      <div class = "item ib">
-        <p>Resources proposed by Researchers</p>
-      </div>
-    </a>
-    <a href="/stories/">
-      <div class = "item iy">
-        <p>Goal Setting</p>
-      </div>
-    </a>
-    <a href="/stories/">
-      <div class = "item io">
-        <p>Health Belief Model</p>
-      </div>
-    </a>
-    <a href="/stories">
-      <div class = "item iy">
-        <p>Theory of Planned Behavior</p>
-      </div>
-    </a>
-    <a href="/stories/">
-      <div class = "item io">
-        <p>Stages of Change</p>
-      </div>
-    </a>
-    <a href="/stories/">
-      <div class = "item iy">
-        <p>Social Cognitive Theory</p>
-      </div>
-    </a>
-    <a href="/stories/">
-      <div class = "item io">
-        <p>Incentives</p>
-      </div>
-    </a>
-    <a href="/stories/">
-      <div class = "item iy">
-        <p>Self-determination Theory</p>
-      </div>
-    </a>
-    <a href="/stories/">
-      <div class = "item ib">
-        <p>Resources to support your work</p>
-      </div>
-    </a>
-    <a href="/stories/">
-      <div class = "item iy book">
-        <p>Tips for designing optimal experiences</p>
-      </div>
-    </a>
-    <a href="/stories/">
-      <div class = "item io checklist">
-        <p>Curated texts to understand design spaces</p>
-      </div>
-    </a>
-    <a href="/stories/">
-      <div class = "item iy build">
-        <p>Assets for building designs</p>
-      </div>
-    </a>
-  </div>
+<div id="containerIntro">
+<h1>Generate Interest</h1>
+<p> Catch someone's attention</p>
+</div><br>
+{% include feature_row %}
 
-  <div class="featured">
-    <div class = "column">
-      <img src="/assets/images/monkeyseemonkeydo_01.jpg">
-      <P> Resource Title Here </p>
-      <img src="/assets/images/monkeyseemonkeydo_01.jpg">
-      <p> Resource two Here </p>
-      <img src="/assets/images/monkeyseemonkeydo_01.jpg">
-      <p> Resource three Here </p>
-    </div>
-  </div>
+<div id="containerIntro">
+<h1>Encourage an Action</h1>
+<p> Increase conversion or facilitate doing</p>
+</div><br>
+{% include feature_row id="feature_row2" %}
 
-</div>
+<div id="containerIntro">
+<h1>Maintain Engagement</h1>
+<p> Help maintain a behavior</p><br>
+</div><br>
+{% include feature_row id="feature_row3" %}
