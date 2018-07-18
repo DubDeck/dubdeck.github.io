@@ -31,17 +31,26 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
+  background-color: #F0F0F0;
   margin-left: 0%;
+  font-size: 16px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
 }
 
+.masthead__inner-wrap {
+  max-width: 1480px;
+}
 .page__footer {
   margin-top: 2em;
 }
 
 .site-title {
-  width: 175px;
-  margin-left: 40% !important;
+  width: 140px;
+  background-color: #F0F0F0;
+}
+
+.greedy-nav {
+  background-color: #F0F0F0;
 }
 
 .author__bio {
@@ -192,8 +201,8 @@ h2 {
 }
 
 .search__toggle {
-  border-radius: 4px;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+  border-radius: 8px;
+  border-bottom: 1px solid gray; 
 }
 
 .container {
