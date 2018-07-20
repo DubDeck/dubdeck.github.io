@@ -38,8 +38,9 @@
 }
 
 .masthead__inner-wrap {
-  max-width: 1480px;
+  max-width: 98%;
 }
+
 .page__footer {
   margin-top: 2em;
 }
@@ -59,7 +60,7 @@
 
 .feed {
   float: right;
-  width: 30%;
+  width: 35%;
 }
 
 .item {
@@ -126,7 +127,19 @@
 .featured {
   display: inline-block;
   position: relative;
-  width: 70%;
+  width: 65%;
+}
+
+.featured a {
+  color: #494e52;
+}
+
+.archive__item-title {
+  color: #494e52 !important;
+}
+
+.archive__item-excerpt a, a:visited {
+  color: #494e52 !important;
 }
 
 .ais-search-box {
@@ -136,6 +149,11 @@
 .featured__image {
   width: 20%;
   float: right;
+  padding-left: 1em;
+}
+
+#roundy{
+  border-radius: 4px;
 }
 
 .feature__item {
@@ -144,7 +162,13 @@
 
 .page__content {
   font-size: $type-size-6;
-  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.page__content h2 {
+  border-bottom: none;
 }
 
 
@@ -156,10 +180,12 @@
 .card {
   border-radius: 5px;
   margin: 2em;
-  margin-bottom: 0.5em;
-  padding: 0.5em 0.5em 0.5em 0.5em;
+  padding: 1em;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  margin-bottom: 2em;
+}
+
+.card p {
+  font-size: .8em;
 }
 
 .featured__asset {
@@ -167,13 +193,25 @@
   position: relative;
 }
 
+.asset__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button__center {
+  margin: .5em;
+  text-align: center;
+}
+
 h2 {
   margin-top: 0px;
 }
 
 #main {
-  margin-left: 0;
   max-width: none;
+  padding-right: 0px;
+  padding-top: 1em;
 }
 
 /* Create three equal columns that sits next to each other */
@@ -202,7 +240,7 @@ h2 {
 
 .search__toggle {
   border-radius: 8px;
-  border-bottom: 1px solid gray; 
+  background-color: white;
 }
 
 .container {
@@ -210,6 +248,7 @@ h2 {
     position: relative;
     padding-left: 35px;
     margin-bottom: 12px;
+    font-size: .8em;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -229,8 +268,8 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     background-color: #eee;
 }
 
@@ -258,13 +297,21 @@ h2 {
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
+    left: 6px;
+    top: 4px;
+    width: 4px;
+    height: 9px;
     border: solid white;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+.btn {
+  width: 16em;
+}
+
+h4 {
+  margin-top: 0px;
 }
