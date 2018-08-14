@@ -5,12 +5,16 @@
         <a class="site-title" href="{{ '/' | relative_url }}"><img src="{{ '/assets/logo.svg' | absolute_url }}"></a>
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
+            {% assign class = nil %}
+            {% if page.url == link.url %}
+              {% assign class = 'active' %}
+            {% endif %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
               {% assign domain = site.url | append: site.baseurl %}
             {% endif %}
-            <li class="masthead__menu-item">
+            <li class="masthead__menu-item {{ class }}">
               <a href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {% endfor %}

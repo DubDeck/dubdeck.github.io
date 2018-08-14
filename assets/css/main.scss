@@ -17,10 +17,6 @@
   font-style: normal;
 }
 
-.page__content a {
-  text-decoration: none;
-}
-
 .initial-content {
   padding-top: 1em;
 }
@@ -31,17 +27,33 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
+  background-color: #FCFCFC;
   margin-left: 0%;
+  font-size: 16px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+}
+
+.masthead__inner-wrap {
+  max-width: 98%;
 }
 
 .page__footer {
   margin-top: 2em;
+  margin-left: 0;
+  background-color: #FCFCFC !important;
+}
+
+footer {
+  margin-left: 0 !important;
 }
 
 .site-title {
-  width: 175px;
-  margin-left: 40% !important;
+  width: 140px;
+  background-color: #FCFCFC;
+}
+
+.greedy-nav {
+  background-color: #FCFCFC;
 }
 
 .author__bio {
@@ -50,23 +62,10 @@
 
 .feed {
   float: right;
-  width: 30%;
+  width: 35%;
 }
 
-.item {
-  margin: 0;
-  font-size: .8em;
-  padding: .8rem;
-  text-align: left;
-  font-weight: 700 !important;
-  font-family: 'Poppins';
-  color: black;
-}
-
-.item:hover {
-  background-color: white;
-}
-
+/* Unused Icons from icomoon setup to be placed before text */
 .checklist:before {
   content: "\e9ba";
   font-family: "icomoon";
@@ -94,30 +93,22 @@
   font-size: .8em;
 }
 
-.ib {
-  color: white;
-  background-color: black;
-  font-weight: 900 !important;
-  padding: .4rem;
-  padding-left: .8rem;
-}
-
-.iy {
-  background-color: #fffdc3;
-}
-
-.io {
-  background-color: #ffb661;
-}
-
-.item p{
-  margin: 0;
-}
-
-.featured {
+.featured__theory {
   display: inline-block;
   position: relative;
-  width: 70%;
+  width: 65%;
+}
+
+.featured__theory a {
+  color: #494e52;
+}
+
+.archive__item-title {
+  color: #494e52 !important;
+}
+
+.archive__item-excerpt a, a:visited {
+  color: #494e52 !important;
 }
 
 .ais-search-box {
@@ -127,17 +118,38 @@
 .featured__image {
   width: 20%;
   float: right;
+  padding-left: 1em;
+}
+
+#roundy{
+  border-radius: 4px;
 }
 
 .feature__item {
   font-size: 1em;
 }
 
-.page__content {
-  font-size: $type-size-6;
-  margin-top: 1em;
+.feature__wrapper {
+  border-bottom: none;
 }
 
+/* Posts text class to change content, currently not doing anything */
+.featured {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page__content {
+  font-size: $type-size-6;
+}
+
+.page__content a {
+  text-decoration: none;
+}
+
+.page__content h2 {
+  border-bottom: none;
+}
 
 .smalltext {
   font-size: $type-size-8;
@@ -147,10 +159,12 @@
 .card {
   border-radius: 5px;
   margin: 2em;
-  margin-bottom: 0.5em;
-  padding: 0.5em 0.5em 0.5em 0.5em;
+  padding: 1em;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  margin-bottom: 2em;
+}
+
+.card p {
+  font-size: .8em;
 }
 
 .featured__asset {
@@ -158,13 +172,25 @@
   position: relative;
 }
 
+.asset__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button__center {
+  margin: .5em;
+  text-align: center;
+}
+
 h2 {
   margin-top: 0px;
 }
 
 #main {
-  margin-left: 0;
   max-width: none;
+  padding-right: 0px;
+  padding-top: 1em;
 }
 
 /* Create three equal columns that sits next to each other */
@@ -192,8 +218,8 @@ h2 {
 }
 
 .search__toggle {
-  border-radius: 4px;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background-color: white;
 }
 
 .container {
@@ -201,6 +227,7 @@ h2 {
     position: relative;
     padding-left: 35px;
     margin-bottom: 12px;
+    font-size: .8em;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -220,8 +247,8 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     background-color: #eee;
 }
 
@@ -249,13 +276,41 @@ h2 {
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
+    left: 6px;
+    top: 4px;
+    width: 4px;
+    height: 9px;
     border: solid white;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+.btn {
+  width: 12em;
+}
+
+h4 {
+  margin-top: 0px;
+}
+
+/* Left sidebar hover color */
+.nav__sub-title:hover {
+  color: tomato;
+}
+
+.search__toggle:hover {
+  color: tomato;
+}
+
+/* Active menu style for left sidebar and top nav menu */
+.active a {
+  font-weight: bold;
+  color: black;
+}
+
+/* Removes underlined bar from top nav menu */
+.greedy-nav .visible-links a::before {
+  content: none;
 }

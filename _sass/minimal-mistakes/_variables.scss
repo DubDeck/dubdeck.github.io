@@ -35,7 +35,7 @@ $garamond: Garamond, serif !default;
 
 $global-font-family: $roboto !default;
 $header-font-family: $poppins !default;
-$caption-font-family: $serif !default;
+$caption-font-family: $roboto !default;
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px
@@ -64,7 +64,7 @@ $text-color: $dark-gray !default;
 $muted-text-color: mix(#fff, $text-color, 35%) !default;
 $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
-$footer-background-color: $lighter-gray !default;
+$footer-background-color: #fcfcfc !default;
 
 $primary-color: #7a8288 !default;
 $success-color: #62c462 !default;
@@ -106,7 +106,7 @@ $link-color: $info-color !default;
 $link-color-hover: mix(#000, $link-color, 25%) !default;
 $link-color-visited: mix(#fff, $link-color, 25%) !default;
 $masthead-link-color: $primary-color !default;
-$masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
+$masthead-link-color-hover: tomato !default;
 $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
 
 /* syntax highlighting (base16) */
