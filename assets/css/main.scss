@@ -17,10 +17,6 @@
   font-style: normal;
 }
 
-.page__content a {
-  text-decoration: none;
-}
-
 .initial-content {
   padding-top: 1em;
 }
@@ -31,7 +27,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #F0F0F0;
+  background-color: #FCFCFC;
   margin-left: 0%;
   font-size: 16px;
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
@@ -43,15 +39,21 @@
 
 .page__footer {
   margin-top: 2em;
+  margin-left: 0;
+  background-color: #FCFCFC !important;
+}
+
+footer {
+  margin-left: 0 !important;
 }
 
 .site-title {
   width: 140px;
-  background-color: #F0F0F0;
+  background-color: #FCFCFC;
 }
 
 .greedy-nav {
-  background-color: #F0F0F0;
+  background-color: #FCFCFC;
 }
 
 .author__bio {
@@ -63,20 +65,7 @@
   width: 35%;
 }
 
-.item {
-  margin: 0;
-  font-size: .8em;
-  padding: .8rem;
-  text-align: left;
-  font-weight: 700 !important;
-  font-family: 'Poppins';
-  color: black;
-}
-
-.item:hover {
-  background-color: white;
-}
-
+/* Unused Icons from icomoon setup to be placed before text */
 .checklist:before {
   content: "\e9ba";
   font-family: "icomoon";
@@ -104,33 +93,13 @@
   font-size: .8em;
 }
 
-.ib {
-  color: white;
-  background-color: black;
-  font-weight: 900 !important;
-  padding: .4rem;
-  padding-left: .8rem;
-}
-
-.iy {
-  background-color: #fffdc3;
-}
-
-.io {
-  background-color: #ffb661;
-}
-
-.item p{
-  margin: 0;
-}
-
-.featured {
+.featured__theory {
   display: inline-block;
   position: relative;
   width: 65%;
 }
 
-.featured a {
+.featured__theory a {
   color: #494e52;
 }
 
@@ -160,17 +129,27 @@
   font-size: 1em;
 }
 
-.page__content {
-  font-size: $type-size-6;
+.feature__wrapper {
+  border-bottom: none;
+}
+
+/* Posts text class to change content, currently not doing anything */
+.featured {
   margin-left: auto;
   margin-right: auto;
 }
 
+.page__content {
+  font-size: $type-size-6;
+}
+
+.page__content a {
+  text-decoration: none;
+}
 
 .page__content h2 {
   border-bottom: none;
 }
-
 
 .smalltext {
   font-size: $type-size-8;
@@ -309,9 +288,29 @@ h2 {
 }
 
 .btn {
-  width: 16em;
+  width: 12em;
 }
 
 h4 {
   margin-top: 0px;
+}
+
+/* Left sidebar hover color */
+.nav__sub-title:hover {
+  color: tomato;
+}
+
+.search__toggle:hover {
+  color: tomato;
+}
+
+/* Active menu style for left sidebar and top nav menu */
+.active a {
+  font-weight: bold;
+  color: black;
+}
+
+/* Removes underlined bar from top nav menu */
+.greedy-nav .visible-links a::before {
+  content: none;
 }
