@@ -24,13 +24,13 @@
     margin-right: 0.5em;
   }
 
-  .icon + .hidden {
-    margin-left: -0.5em; /* override for hidden text*/
+  .icon+.hidden {
+    margin-left: -0.5em;
+    /* override for hidden text*/
   }
 
   /* button colors */
-  $buttoncolors:
-  (primary, $primary-color),
+  $buttoncolors: (primary, $primary-color),
   (inverse, #fff),
   (light-outline, transparent),
   (success, $success-color),
@@ -42,13 +42,16 @@
   (google-plus, $google-plus-color),
   (linkedin, $linkedin-color);
 
-  @each $buttoncolor, $color in $buttoncolors {
+  @each $buttoncolor,
+  $color in $buttoncolors {
     &--#{$buttoncolor} {
       @include yiq-contrasted($color);
-      @if ($buttoncolor == inverse) {
+
+      @if ($buttoncolor==inverse) {
         border: 1px solid $border-color;
       }
-      @if ($buttoncolor == light-outline) {
+
+      @if ($buttoncolor==light-outline) {
         border: 1px solid #fff;
       }
 
@@ -67,7 +70,7 @@
     display: block;
     width: 100%;
 
-    + .btn--block {
+    +.btn--block {
       margin-top: 0.25em;
     }
   }

@@ -1,0 +1,90 @@
+/*
+ * DubDeck custom theme
+ * @override minimal-mistakes/masthead
+ */
+
+.masthead {
+    /* Animation */
+    animation: $intro-transition;
+    animation-delay: 0.15s;
+    -webkit-animation: $intro-transition;
+    -webkit-animation-delay: 0.15s;
+
+    /* Color */
+    background: $dubdeck-white;
+
+    /* Typography */
+
+    &__inner-wrap {
+        /* Layout */
+        @include clearfix;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+
+        margin: auto;
+        padding: $dubdeck-sp-2;
+        max-width: $dubdeck-unit-8;
+
+        @include breakpoint($dubdeck-bp-large) {
+            padding: $dubdeck-sp-3 $dubdeck-sp-6;
+        }
+
+        @include breakpoint($dubdeck-bp-x-large) {
+            max-width: $x-large;
+        }
+
+        nav {
+            z-index: 10;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.masthead__site-title {
+    display: -webkit-box;
+    display: flex;
+    align-self: stretch;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0;
+    width: 140px;
+    z-index: 20;
+}
+
+.masthead__menu {
+    /* Layout */
+    clear: both;
+    float: left;
+    margin: 0 auto;
+    max-width: $dubdeck-unit-8;
+    width: 100%;
+    z-index: 2;
+
+    .site-nav {
+        margin-left: 0;
+
+        @include breakpoint($small) {
+            float: right;
+        }
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        clear: both;
+        list-style-type: none;
+    }
+}
+
+.masthead__menu-item {
+    color: $dubdeck-black-400;
+    display: block;
+    list-style-type: none;
+    padding: 0 $dubdeck-sp-2 ;
+    white-space: nowrap;
+}

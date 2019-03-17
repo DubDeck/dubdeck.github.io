@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Library"
+  - title: "Collections"
     url: /
     description: Explore Designs backed by Research
 
-  - title: "Gallery"
-    url: /gallery/
-    description: Browse images to inspire you
+  # - title: "Gallery"
+  #   url: /gallery/
+  #   description: Browse images to inspire you
 
   # - title: "Sample Collections"
   #   url: /collection-archive/

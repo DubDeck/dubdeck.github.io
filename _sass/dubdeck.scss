@@ -1,0 +1,17 @@
+/*
+ * DubDeck custom theme
+ * @override minimal-mistakes
+ */
+
+/* Variations */
+@import "dubdeck/fonts";
+@import "dubdeck/variables";
+
+/* Core CSS */
+@import "dubdeck/base";
+
+/* Components */
+@import "dubdeck/banner";
+@import "dubdeck/masthead";
+@import "dubdeck/navigation";
+@import "dubdeck/search";

@@ -1,0 +1,70 @@
+/*
+ * DubDeck variables
+ * Inspired by Tachyones: https://tachyons.io
+ * @override minimal-mistakes/variables
+ */ 
+
+/* Color Palette */
+$dubdeck-red: #FE4A49;
+$dubdeck-yellow: #FED766;
+$dubdeck-blue: #009FB7;
+
+$dubdeck-white: #FFFFFF;
+$dubdeck-black: #001021;
+$dubdeck-black-400: #8B929A;
+
+/* Color: Theme */
+$dubdeck-bg-default-color: $dubdeck-white;
+$dubdeck-font-default-color: $dubdeck-black;
+
+
+/* Layout: Breakpoint */
+$dubdeck-bp-small: 600px;
+$dubdeck-bp-medium: 768px;
+$dubdeck-bp-large: 1024px;
+$dubdeck-bp-x-large: 1440px;
+
+/* Layout: Unit */
+$dubdeck-unit-1: 1rem;
+$dubdeck-unit-2: 2rem;
+$dubdeck-unit-3: 3rem;
+$dubdeck-unit-4: 8rem;
+$dubdeck-unit-5: 16rem;
+$dubdeck-unit-6: 32rem;
+$dubdeck-unit-7: 48rem;
+$dubdeck-unit-8: 64rem;
+
+/* Layout: Spacing */
+$dubdeck-sp-0: 0;
+$dubdeck-sp-1: .25rem;
+$dubdeck-sp-2: .5rem;
+$dubdeck-sp-3: 1rem;
+$dubdeck-sp-4: 2rem;
+$dubdeck-sp-5: 4rem;
+$dubdeck-sp-6: 8rem;
+$dubdeck-sp-7: 16rem;
+
+
+/* Typography: Font Family */
+$lato: "Lato", sans-serif;
+
+$dubdeck-font-family-global: $lato !default;
+$dubdeck-font-family-heading: $lato !default;
+$dubdeck-font-family-caption: $lato !default;
+
+/* Typography: Font Weight */
+$dubdeck-fw-400: 400;
+$dubdeck-fw-600: 600;
+
+/* Typography: Line Height */
+$dubdeck-lh-title: 1.2;
+$dubdeck-lh-copy: 1.5;
+
+/* Typography: Typescale (font-size) */
+$dubdeck-fs-1: 3rem;
+$dubdeck-fs-2: 2.25rem;
+$dubdeck-fs-3: 1.5rem;
+$dubdeck-fs-4: 1.25rem;
+$dubdeck-fs-5: 1rem;
+$dubdeck-fs-6: .875rem;
+$dubdeck-fs-7: .75rem;

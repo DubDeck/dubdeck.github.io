@@ -1,11 +1,119 @@
 ---
-layout: archive
+layout: default
 ---
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<header class="dubdeck-banner--full dubdeck-banner-home w-100">
+  <div class="dubdeck-banner-home__inner-wrapper center ph6 pv5 mw8">
+    <h1 class="f3 fw4 mv0 lh-title">
+      Bridging the gap between research and design practice
+    </h1>
+    <div class="mt3">
+      <input type="text" id="search" class="search-input" tabindex="-1" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Search design principles' }}" />
+    </div>
+  </div>
+</header>
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
+<section class="cf center mt5 mb0 mw8 ph6 w-100">
+  <h3 class="f6 tracked ttu mt0 mb3">{{ site.data.ui-text[site.locale].recent_posts | default: "Featured Posts" }}</h3>
+  {% for post in paginator.posts %}
+    {% include post-display.html type="grid" %}
+  {% endfor %}
+</section>
 
-{% include paginator.html %}
+<section class="cf center mt5 mb0 mw8 ph6 w-100">
+  <h3 class="f6 tracked ttu mt0 mb3">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+  {% for post in paginator.posts %}
+    {% include post-display.html type="list" %}
+  {% endfor %}
+</section>
+
+
+
+{% comment %} {% include feature_row %}
+
+<div id="containerIntro">
+<h1>Encourage an Action</h1>
+<p> Increase conversion or facilitate doing</p>
+</div><br>
+{% include feature_row id="feature_row2" %}
+
+<div id="containerIntro">
+<h1>Maintain Engagement</h1>
+<p> Help maintain a behavior</p><br>
+</div><br>
+{% include feature_row id="feature_row3" %} {% endcomment %}
+
+{% comment %} ---
+layout: single
+classes: wide
+author_profile: false
+read_time: false
+sidebar:
+  nav: "theories"
+intro:
+  - excerpt: 'Download validated assets and methods to improve your designs.'
+feature_row:
+  - image_path: assets/images/monkeyseemonkeydo_01.jpg
+    alt: "placeholder image 1"
+    title: "Social Comparison"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting. #Socialcomparison #goalsetting"
+    url: "/socialcomparison/monkeyseemonkeydo"
+    author: Lucas Colusso
+    read_time: Published 6/29/2018  ·  less than 1 minute read
+
+  - image_path: /assets/images/monkeyseemonkeydo_01.jpg
+    title: "Monkey Do"
+    excerpt: "By means of social comparison processes."
+    url: "/socialcomparison/monkeyseemonkeydo"
+  - image_path: /assets/images/monkeyseemonkeydo_01.jpg
+    title: "Monkey Do"
+    excerpt: "By means of social comparison processes."
+    url: "/socialcomparison/monkeyseemonkeydo"
+
+feature_row2:
+  - image_path: assets/images/monkeyseemonkeydo_01.jpg
+    alt: "placeholder image 1"
+    title: "Feature Row"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "/socialcomparison/monkeyseemonkeydo"
+  - image_path: /assets/images/monkeyseemonkeydo_01.jpg
+    title: "Monkey See"
+    excerpt: "By means of social comparison processes."
+    url: "/socialcomparison/monkeyseemonkeydo"
+  - image_path: /assets/images/monkeyseemonkeydo_01.jpg
+    title: "Monkey Do"
+    excerpt: "By means of social comparison processes."
+    url: "/socialcomparison/monkeyseemonkeydo"
+feature_row3:
+  - image_path: assets/images/monkeyseemonkeydo_01.jpg
+    alt: "placeholder image 1"
+    title: "Feature Row"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "/socialcomparison/monkeyseemonkeydo"
+  - image_path: /assets/images/monkeyseemonkeydo_01.jpg
+    title: "Monkey See"
+    excerpt: "By means of social comparison processes."
+    url: "/socialcomparison/monkeyseemonkeydo"
+  - image_path: /assets/images/monkeyseemonkeydo_01.jpg
+    title: "Monkey Do"
+    excerpt: "By means of social comparison processes."
+    url: "/socialcomparison/monkeyseemonkeydo"
+---
+
+<div id="containerIntro">
+<h1>Generate Interest</h1>
+<p> Catch someone's attention</p>
+</div><br>
+{% include feature_row %}
+
+<div id="containerIntro">
+<h1>Encourage an Action</h1>
+<p> Increase conversion or facilitate doing</p>
+</div><br>
+{% include feature_row id="feature_row2" %}
+
+<div id="containerIntro">
+<h1>Maintain Engagement</h1>
+<p> Help maintain a behavior</p><br>
+</div><br>
+{% include feature_row id="feature_row3" %} {% endcomment %}

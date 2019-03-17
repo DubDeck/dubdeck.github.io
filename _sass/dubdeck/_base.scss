@@ -1,0 +1,39 @@
+/*
+ * DubDeck base setup
+ * @override minimal-mistakes/base
+ */
+
+:root {
+    font-size: 18px;
+}
+
+body {
+    /* Color */
+    background-color: $dubdeck-bg-default-color;
+    color: $dubdeck-font-default-color;
+
+    /* Layout */
+    margin: $dubdeck-sp-0;
+    padding: $dubdeck-sp-0;
+
+    /* Typography */
+    font-family: $dubdeck-font-family-global;
+    font-weight: $dubdeck-fw-400;
+    line-height: $dubdeck-lh-copy;
+
+    &.overflow--hidden {
+        /* when primary navigation is visible, the content in the background won't scroll */
+        overflow: hidden;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: $dubdeck-lh-title;
+    font-family: $dubdeck-font-family-heading;
+    font-weight: $dubdeck-fw-600;
+}
