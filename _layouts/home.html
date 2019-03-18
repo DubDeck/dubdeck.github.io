@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<!-- Header Banner -->
 <header class="dubdeck-banner--full dubdeck-banner-home w-100">
   <div class="dubdeck-banner-home__inner-wrapper center ph6 pv5 mw8">
     <h1 class="f3 fw4 mv0 lh-title">
@@ -13,37 +13,22 @@ layout: default
   </div>
 </header>
 
+<!-- Feed: Recent Posts -->
 <section class="cf center mt5 mb0 mw8 ph6 w-100">
-  <h3 class="f6 tracked ttu mt0 mb3">{{ site.data.ui-text[site.locale].recent_posts | default: "Featured Posts" }}</h3>
-  {% for post in paginator.posts %}
-    {% include post-display.html type="grid" %}
-  {% endfor %}
-</section>
-
-<section class="cf center mt5 mb0 mw8 ph6 w-100">
-  <h3 class="f6 tracked ttu mt0 mb3">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-  {% for post in paginator.posts %}
-    {% include post-display.html type="list" %}
-  {% endfor %}
+  <h3 class="dubdeck-f-mata-title mt0 mb3">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+  <!-- Feed Container -->
+  <div class="archive">
+    {% for post in paginator.posts %}
+      {% include archive-single.html type="list" %}
+    {% endfor %}
+  </div>
 </section>
 
 
 
-{% comment %} {% include feature_row %}
-
-<div id="containerIntro">
-<h1>Encourage an Action</h1>
-<p> Increase conversion or facilitate doing</p>
-</div><br>
-{% include feature_row id="feature_row2" %}
-
-<div id="containerIntro">
-<h1>Maintain Engagement</h1>
-<p> Help maintain a behavior</p><br>
-</div><br>
-{% include feature_row id="feature_row3" %} {% endcomment %}
-
-{% comment %} ---
+{% comment %} ToDo: Build featured post feed {% endcomment %}
+{% comment %} 
+---
 layout: single
 classes: wide
 author_profile: false
@@ -116,4 +101,11 @@ feature_row3:
 <h1>Maintain Engagement</h1>
 <p> Help maintain a behavior</p><br>
 </div><br>
-{% include feature_row id="feature_row3" %} {% endcomment %}
+{% include feature_row id="feature_row3" %}
+<section class="cf center mt5 mb0 mw8 ph6 w-100">
+  <h3 class="dubdeck-f-meta-title tracked mt0 mb3">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+  {% for post in paginator.posts %}
+    {% include post-display.html type="grid" %}
+  {% endfor %}
+</section> 
+{% endcomment %}

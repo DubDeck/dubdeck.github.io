@@ -16,7 +16,7 @@ description              : "Validated assets and methods to improve your designs
 url                      : "https://dubdeck.uw.edu"
 baseurl                  : ""
 repository               : "DubDeck/dubdeck.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/fallback-iamge.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/fallback-image.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:

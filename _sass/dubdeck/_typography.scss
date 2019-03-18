@@ -1,0 +1,66 @@
+/*
+ * DubDeck typography
+ */
+
+.dubdeck-f3-title {
+  font-size: $dubdeck-fs-4;
+  line-height: $dubdeck-lh-title;
+
+  // Default Spacing
+  margin-top: $dubdeck-sp-2;
+  margin-bottom: 0;
+
+  &--nosp {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.dubdeck-f5-copy {
+  font-size: $dubdeck-fs-5;
+  line-height: $dubdeck-lh-copy;
+
+  // Default Spacing
+  margin-top: $dubdeck-sp-2;
+  margin-bottom: 0;
+}
+
+.dubdeck-f7-meta {
+  font-size: $dubdeck-fs-7;
+  line-height: $dubdeck-lh-copy;
+
+  color: $dubdeck-concrete;
+
+  // Default Spacing
+  margin-top: $dubdeck-sp-1;
+  margin-bottom: 0;
+
+  &--nosp {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+
+
+.dubdeck-f-meta-title {
+  font-size: $dubdeck-fs-6;
+  font-weight: $dubdeck-fw-600;
+  letter-spacing: calc(.1 * #{$dubdeck-fs-6});
+  text-transform: uppercase;
+
+  // Spacing
+  margin-top: $dubdeck-sp-2;
+  margin-bottom: 0;
+}
+
+.dubdeck-f-link {
+  &--post {
+    color: $dubdeck-midnightblue;
+    text-decoration: none;
+
+    // Layout
+    display: block;
+  }
+}
+

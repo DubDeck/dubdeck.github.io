@@ -1,35 +1,8 @@
 # main links
-main:
-  - title: "Collections"
-    url: /
-    description: Explore Designs backed by Research
+# main:
+#   - title: "Home"
+#     url: /
+#     description: Explore Designs backed by Research
 
-  # - title: "Gallery"
-  #   url: /gallery/
-  #   description: Browse images to inspire you
-
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
-theories:
-  - title: Social Comparison
-    url: /socialcomparison/
-
-  - title: Goal Setting
-    url: /goalsetting/
-
-  - title: Incentives
-    url: /incentives/
-
-  - title: Cognitive Biases
-    url: /cognitivebiases/
-
-  - title: Health Belief Model
-    url: /healthbeliefmodel/
-
-  - title: Social Cognitive Theory
-    url: /socialcognitivetheory/
-
-  - title: Theory of Planned Behavior
-    url: /theoryofplannedbehavior/
+# Topic links
+# topics:

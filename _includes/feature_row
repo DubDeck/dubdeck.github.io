@@ -5,7 +5,6 @@
 {% endif %}
 
 <div class="feature__wrapper">
-
   {% for f in feature_row %}
 
     {% if f.url contains "://" %}
@@ -63,5 +62,4 @@
       </div>
     </div>
   {% endfor %}
-
 </div>
