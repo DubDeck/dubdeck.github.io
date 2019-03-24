@@ -25,6 +25,18 @@
   margin-bottom: 0;
 }
 
+.dubdeck-f6-meta {
+  font-size: $dubdeck-fs-6;
+  font-weight: $dubdeck-fw-600;
+  letter-spacing: calc(.1 * #{$dubdeck-fs-6});
+  line-height: $dubdeck-lh-copy;
+  text-transform: uppercase;
+
+  // Spacing
+  margin-top: $dubdeck-sp-2;
+  margin-bottom: 0;
+}
+
 .dubdeck-f7-meta {
   font-size: $dubdeck-fs-7;
   line-height: $dubdeck-lh-copy;
@@ -39,19 +51,6 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-}
-
-
-
-.dubdeck-f-meta-title {
-  font-size: $dubdeck-fs-6;
-  font-weight: $dubdeck-fw-600;
-  letter-spacing: calc(.1 * #{$dubdeck-fs-6});
-  text-transform: uppercase;
-
-  // Spacing
-  margin-top: $dubdeck-sp-2;
-  margin-bottom: 0;
 }
 
 .dubdeck-f-link {

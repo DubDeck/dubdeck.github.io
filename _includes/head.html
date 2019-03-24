@@ -10,8 +10,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Favicon -->
-<link rel="icon" type="images/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-<link rel="icon" type="images/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+{% assign favicon16 = site.favicon.16px | absolute_url %}
+{% assign favicon32 = site.favicon.32px | absolute_url %}
+
+<link rel="icon" type="images/png" sizes="32x32" href="{{ favicon32 }}">
+<link rel="icon" type="images/png" sizes="16x16" href="{{ favicon16 }}">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';

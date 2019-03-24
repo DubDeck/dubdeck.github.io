@@ -1,0 +1,19 @@
+/*
+ * DubDeck base setup
+ * @override minimal-mistakes/footer
+ */
+
+
+
+.Footer {
+  // Layout
+  margin: $dubdeck-sp-4 $dubdeck-sp-0 $dubdeck-sp-0 $dubdeck-sp-0;
+  width: 100%;
+
+  // Border
+  border-top: 1px solid $dubdeck-clouds;
+
+  &__content {
+    padding: $dubdeck-sp-4;
+  }
+}

@@ -16,8 +16,14 @@ description              : "Validated assets and methods to improve your designs
 url                      : "https://dubdeck.uw.edu"
 baseurl                  : ""
 repository               : "DubDeck/dubdeck.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+favicon:
+  16px                   : "/assets/images/favicon-16x16.png" # URL to favicon 16px
+  32px                   : "/assets/images/favicon-32x32.png" # URL to favicon 32px
+avatar                   : "/assets/images/fallback-avatar.jpg"
 teaser                   : "/assets/images/fallback-image.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+headercolor1             : "#e74c3c" # fallback gradient color 1
+headercolor2             : "#f1c40f" #fallback gradient color 2
+breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"

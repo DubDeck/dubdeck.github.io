@@ -1,0 +1,162 @@
+/*
+ * DubDeck custom theme
+ * @override minimal-mistakes/page
+ */
+
+.PageArthorCard {
+  // Layout
+  float: left;
+  padding: $dubdeck-sp-4;
+  margin-top: $dubdeck-sp-3;
+  margin-bottom: $dubdeck-sp-3;
+  max-width: $dubdeck-unit-5;
+
+  // Colors
+  background: $dubdeck-white;
+
+  // borders
+  border: 1px solid $dubdeck-silver;
+  border-radius: $dubdeck-sp-1;
+
+  .PageArthorCard__avatar {
+    text-align: center;
+  }
+}
+
+// Markdown format
+.PageContent {
+  clear: both;
+  margin-top: $dubdeck-sp-5;
+
+  h1, 
+  h2, 
+  h3, 
+  h4, 
+  h5, 
+  h6,
+  p {
+
+    margin-bottom: $dubdeck-sp-0;
+  }
+
+  p {
+    // spacing
+    margin-top: $dubdeck-sp-4;
+  }
+}
+
+.PageFigure {
+  &__img {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+
+  &__caption {
+    color: $dubdeck-concrete;
+    margin-top: $dubdeck-sp-2;
+    margin-bottom: $dubdeck-sp-0;
+  }
+}
+
+.PageHeader {
+  background-color: $dubdeck-concrete;
+
+  &__content {
+    @include clearfix;
+
+    margin: auto;
+    padding: $dubdeck-sp-2;
+    max-width: $dubdeck-unit-8;
+
+    @include breakpoint($dubdeck-bp-large) {
+      padding: $dubdeck-sp-5 $dubdeck-sp-6;
+    }
+
+    @include breakpoint($dubdeck-bp-x-large) {
+      max-width: $x-large;
+    }
+
+    .page-title {
+      // Layout
+      background-color: $dubdeck-black;
+      padding: $dubdeck-unit-1 $dubdeck-unit-1 $dubdeck-unit-1 0;
+
+      // Typographhy
+      color: $dubdeck-white;
+      line-height: $dubdeck-lh-copy;
+    }
+  }
+}
+
+.PageHeaderCover {
+  position: relative;
+  height: 320px;
+  width: 100%;
+
+  &__image {
+    // Layout
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    // Background properties
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.page-meta {
+  margin-top: $dubdeck-sp-4;
+  margin-bottom: $dubdeck-sp-0;
+
+  >* {
+    display: inline-block;
+    margin-right: $dubdeck-sp-4;
+  }
+
+  .page-meta__time {
+    color: $dubdeck-white;
+    display: inline-block;
+    font-weight: $dubdeck-fw-400;
+    margin-right: $dubdeck-sp-4;
+  }
+
+  .page-meta__author {
+    color: $dubdeck-white;
+  }
+}
+
+.PageMeta {
+  clear: both;
+  margin: $dubdeck-sp-5 auto 0 auto;
+  max-width: $dubdeck-unit-9;
+  overflow: auto;
+
+  &__content {
+    @include clearfix;
+
+    margin: auto;
+    padding: $dubdeck-sp-2;
+    max-width: $dubdeck-unit-8;
+
+    @include breakpoint($dubdeck-bp-large) {
+      padding: $dubdeck-sp-5 $dubdeck-sp-6;
+    }
+
+    @include breakpoint($dubdeck-bp-x-large) {
+      max-width: $x-large;
+    }
+  }
+}
+
+.PageSummary {
+  &__content {
+    &-title {
+      margin-top: $dubdeck-sp-0;
+    }
+  }
+}

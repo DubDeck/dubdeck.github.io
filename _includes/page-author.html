@@ -1,0 +1,22 @@
+{% for author in page.author %}
+  {% assign authorInfo = site.data.authors[author] | default: author %}
+
+  {% if authorInfo.avatar %}
+    {% assign authorAvatar = authorInfo.avator | absolute_url %}
+  {% else %}
+    {% assign authorAvatar = site.avatar | absolute_url %}
+  {% endif %}
+    
+  <div class="PageArthorCard">
+    <div class="PageArthorCard__avatar">
+      <img src="{{ authorAvatar }}" class="br-100 h3 w3 dib" title="Photo of {{ AuthorInfo.name }}">
+      <h5 class="f4">{{ authorInfo.name }}</h5>
+    </div>
+    {% if authorInfo.bio %}
+      <hr class="mw3 bb bw1 b--black-10">
+      <p class="dubdeck-f5-copy lh-copy measure center f6 black-70" itemprop="description">
+        {{ authorInfo.bio }}
+      </p>
+    {% endif %}
+  </div>
+{% endfor %}

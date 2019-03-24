@@ -3,71 +3,16 @@
  * @override minimal-mistakes/base
  */
 
-/* ==========================================================================
-   BASE ELEMENTS
-   ========================================================================== */
-
-html {
-    /* sticky footer fix */
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    color: $text-color;
-    font-family: $global-font-family;
-    line-height: 1.5;
-
-    &.overflow--hidden {
-        /* when primary navigation is visible, the content in the background won't scroll */
-        overflow: hidden;
-    }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 2em 0 0.5em;
-    line-height: 1.2;
-    font-family: $header-font-family;
-    font-weight: bold;
-}
-
-h1 {
-    margin-top: 0;
-    font-size: $type-size-3;
-}
-
-h2 {
-    font-size: $type-size-4;
-}
 
 
-h4 {
-    font-size: $type-size-6;
-}
 
-h5 {
-    font-size: $type-size-6;
-}
 
-h6 {
-    font-size: $type-size-6;
-}
 
 small,
 .small {
     font-size: $type-size-6;
 }
 
-p {
-    margin-bottom: 1.3em;
-}
 
 u,
 ins {
@@ -139,9 +84,9 @@ a {
         outline: 0;
     }
 
-    &:visited {
-        color: $link-color-visited;
-    }
+    // &:visited {
+    //     color: $link-color-visited;
+    // }
 }
 
 /* buttons */
@@ -269,21 +214,21 @@ figure {
 
 /* Figure captions */
 
-figcaption {
-    margin-bottom: 0.5em;
-    color: $muted-text-color;
-    font-family: $caption-font-family;
-    font-size: $type-size-6;
+// figcaption {
+//     margin-bottom: 0.5em;
+//     color: $muted-text-color;
+//     font-family: $caption-font-family;
+//     font-size: $type-size-6;
 
-    a {
-        -webkit-transition: $global-transition;
-        transition: $global-transition;
+//     a {
+//         -webkit-transition: $global-transition;
+//         transition: $global-transition;
 
-        &:hover {
-            color: $link-color-hover;
-        }
-    }
-}
+//         &:hover {
+//             color: $link-color-hover;
+//         }
+//     }
+// }
 
 /* Fix IE9 SVG bug */
 
@@ -365,21 +310,27 @@ input[type="submit"],
 }
 
 
- 
+
 :root {
     font-size: 18px;
 }
 
+html {
+    /* sticky footer fix */
+    position: relative;
+    min-height: 100%;
+}
+
 body {
-    /* Color */
+    // Color
     background-color: $dubdeck-bg-default-color;
     color: $dubdeck-font-default-color;
 
-    /* Layout */
+    // Layout
     margin: $dubdeck-sp-0;
     padding: $dubdeck-sp-0;
 
-    /* Typography */
+    // Typography
     font-family: $dubdeck-font-family-global;
     font-weight: $dubdeck-fw-400;
     line-height: $dubdeck-lh-copy;
@@ -396,7 +347,35 @@ h3,
 h4,
 h5,
 h6 {
-    line-height: $dubdeck-lh-title;
-    font-family: $dubdeck-font-family-heading;
-    font-weight: $dubdeck-fw-600;
+  line-height: $dubdeck-lh-title;
+  font-family: $dubdeck-font-family-heading;
+  font-weight: $dubdeck-fw-600;
+}
+
+h1 {
+  font-size: $dubdeck-fs-1;
+}
+
+h2 {
+  font-size: $dubdeck-fs-2;
+}
+
+h3 {
+  font-size: $dubdeck-fs-3;
+}
+
+h4 {
+  font-size: $dubdeck-fs-4;
+}
+
+h5 {
+  font-size: $dubdeck-fs-5;
+}
+
+h6 {
+  font-size: $dubdeck-fs-6;
+}
+
+p {
+  font-size: $dubdeck-fs-5;
 }

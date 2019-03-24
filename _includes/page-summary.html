@@ -1,0 +1,10 @@
+{% for summary in page.summary %}
+<div class="w-100 w-50-l pr2-l pl2-ns measure mv4 center outline">
+  <div class="pa4">
+    <h2 class="PageSummary__content-title f4 f2-l fw7 mt0 pv3-l bb-l bb--black">{{ summary.title }}</h2>
+    <p class="dubdeck-f5-copy">
+      {{ summary.content }}
+    </p>
+  </div>
+</div>
+{% endfor %}

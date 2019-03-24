@@ -1,7 +1,9 @@
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% if post.header.color1 and post.header.color2 %}
+  {% capture headercolor1 %}{{ post.header.color1 }}{% endcapture %}
+  {% capture headercolor2 %}{{ post.header.color2 }}{% endcapture %}
 {% else %}
-  {% assign teaser = site.teaser %}
+  {% assign headercolor1 = site.headercolor1 %}
+  {% assign headercolor2 = site.headercolor2 %}
 {% endif %}
 
 {% if post.id %}
@@ -11,9 +13,10 @@
   {% assign author = post.author %}
 {% endif %}
 
+
 {% comment %} Feed Type: Grid {% endcomment %}
 {% if include.type == "grid" %}
-<div class="feed-post--grid pa3-ns">
+{% comment %} <div class="feed-post--grid pa3-ns">
   <a href="{{ post.url | absolute_url }}" rel="permalink" class="dubdeck-f-link--post">
     <div class="aspect-ratio aspect-ratio--1x1">
       <img 
@@ -32,7 +35,7 @@
       {{ title }}  
     </h3>
   </a>
-</div>
+</div> {% endcomment %}
 
 {% comment %} Feed Type: List {% endcomment %}
 {% else %}
@@ -59,7 +62,10 @@
       {% endif %}
 
       <p class="ArchiveList-meta dubdeck-f7-meta">
-        By {{author}}
+        By 
+        {% for author in post.author %}
+          {{author}}
+        {% endfor %}
         {% if post.read_time %}
         <span class="ArchiveList-meta__timestamp">
           <i class="far fa-clock" aria-hidden="true"></i> <time>{% include read-time.html %}</time>
@@ -69,17 +75,23 @@
     </div>
     <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
       <div class="aspect-ratio aspect-ratio--4x3">
+        {% comment %} Insert teaser image if found; else fill-in with gradient {% endcomment %}
+        {% if post.header.teaser %}
         <img 
+          src="{{ post.header.teaser }}" 
+          alt="teaser image for {{ post.header.teaser }}"
+          class="aspect-ratio--object db bg-center cover"
+        />
+        {% else %}
+        <div
           style="
-            background-image:url(
-              {% if teaser contains '://' %} 
-                {{ teaser }}
-              {% else %} 
-                {{ teaser | absolute_url }}
-              {% endif %}
-            );
+            background-color: {{ headercolor1 }};
+            background-image: linear-gradient(45deg, {{ headercolor1 }}, {{ headercolor2 }});
           "
-          class="aspect-ratio--object db bg-center cover">
+          class="aspect-ratio--object db bg-center cover"
+        >
+        </div>
+        {% endif %}
       </div>
     </div>
   </div>

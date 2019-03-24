@@ -2,10 +2,18 @@
 layout: default
 ---
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+{% comment %} {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
   {% include page__hero_video.html %}
+{% endif %} {% endcomment %}
+
+{% if page.header.color1 and page.header.color2 %}
+  {% capture headercolor1 %}{{ page.header.color1 }}{% endcapture %}
+  {% capture headercolor2 %}{{ page.header.color2 }}{% endcapture %}
+{% else %}
+  {% assign headercolor1 = site.headercolor1 %}
+  {% assign headercolor2 = site.headercolor2 %}
 {% endif %}
 
 {% if page.url != "/" and site.breadcrumbs %}
@@ -16,59 +24,95 @@ layout: default
 
 
 <div id="main" role="main">
-  {% include sidebar.html %}
+  {% comment %} {% include sidebar.html %} {% endcomment %}
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    {% comment %} Add <meta> tags {% endcomment %}
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 
-    <div class="page__inner-wrap">
-      {% unless page.header.overlay_color or page.header.overlay_image %}
-        <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.read_time %}
-            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-          {% endif %}
-        </header>
-      {% endunless %}
+    <header 
+      class="pageHeader"
+      style="
+        background-color: {{ headercolor1 }};
+        background-image: linear-gradient(45deg, {{ headercolor1 }}, {{ headercolor2 }});
+      "
+    >
+      {% if page.header.teaser %}
+      <div class="PageHeaderCover">
+        <div 
+          class="PageHeaderCover__image"
+          style='
+            background-image: url("{{ page.header.teaser }}");
+          '
+        >
+        </div>
+      </div>
+      {% endif %}
 
-      <section class="page__content" itemprop="text">
-        {% if page.toc %}
-          <aside class="sidebar__right">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
-              {% include toc.html sanitize=true html=content h_min=2 h_max=3 class="toc__menu" %}
-            </nav>
-          </aside>
-        {% endif %}
-        {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-      </section>
+      <div class="PageHeader__content">
+        <h3 class="f2 f1-m f-headline-l measure-narrow lh-title mv0">
+          <span class="page-title">
+            {{ page.title }}
+          </span>
+        </h3>    
+        <div class="page-meta">
+          <time class="page-meta__time dubdeck-f6-meta">
+            {{ page.date | date: "%B %d %Y" }}
+          </time>
+          <h5 class="page-meta__author dubdeck-f6-meta">
+            By 
+            {% for author in page.author %}
+              {% if forloop.last == true %}
+                {{ author }}
+              {% else %}
+                {{ author }},
+              {% endif %} 
+            {% endfor %}
+          </h5>
+        </div>
+      </div>
+    </header>
 
-      <footer class="page__meta">
-        {% if site.data.ui-text[site.locale].meta_label %}
-          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-        {% endif %}
-        {% include page__taxonomy.html %}
-        {% if page.last_modified_at %}
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-      </footer>
+    {% if page.summary %}
+      {% include page-summary.html %}
+    {% endif %}
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
-      {% include post_pagination.html %}
+    <div class="PageContent measure-wide center">
+      {{ content }}
     </div>
 
-    {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
-      {% include comments.html %}
-    {% endif %}
+    <div class="PageMeta">
+      <div class="PageMeta__content">
+        <h5 class="dubdeck-f5-meta">Author(s)</h5>
+        {% include page-author.html %}
+      </div>
+    </div>
   </article>
 
+
+  {% comment %} <footer class="page__meta">
+    {% if site.data.ui-text[site.locale].meta_label %}
+      <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+    {% endif %}
+    {% include page__taxonomy.html %}
+    {% if page.last_modified_at %}
+      <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></p>
+    {% elsif page.date %}
+      <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+    {% endif %}
+  </footer>
+
+    {% if page.share %}{% include social-share.html %}{% endif %}
+
+    {% include post_pagination.html %}
+  </div>
+
+  {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
+    {% include comments.html %}
+  {% endif %}  {% endcomment %}
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
@@ -78,7 +122,7 @@ layout: default
           {% include archive-single.html type="grid" %}
         {% endfor %}
       </div>
-    </div>
+    </div> 
   {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
   {% elsif page.id and page.related %}
     <div class="page__related">
@@ -89,5 +133,5 @@ layout: default
         {% endfor %}
       </div>
     </div>
-  {% endif %}
+  {% endif %} 
 </div>

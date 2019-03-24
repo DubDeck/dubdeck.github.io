@@ -5,6 +5,7 @@
  */ 
 
 /* Color Palette */
+/* https://flatuicolors.com/palette/defo */
 $dubdeck-white: #ffffff;
 $dubdeck-clouds: #ecf0f1;
 $dubdeck-silver: #bdc3c7;
@@ -26,10 +27,12 @@ $dubdeck-peterriver: #3498db;
 $dubdeck-belizehole: #2980b9;
 $dubdeck-amethyst: #9b59b6;
 $dubdeck-wisteria: #8e44ad;
+$dubdeck-black: #000000;
 
 /* Color: Theme */
 $dubdeck-bg-default-color: $dubdeck-white;
 $dubdeck-font-default-color: $dubdeck-midnightblue;
+$dubdeck-link-default-color: $dubdeck-peterriver;
 
 
 /* Layout: Breakpoint */
@@ -47,6 +50,7 @@ $dubdeck-unit-5: 16rem;
 $dubdeck-unit-6: 32rem;
 $dubdeck-unit-7: 48rem;
 $dubdeck-unit-8: 64rem;
+$dubdeck-unit-9: 96rem;
 
 /* Layout: Spacing */
 $dubdeck-sp-0: 0;
