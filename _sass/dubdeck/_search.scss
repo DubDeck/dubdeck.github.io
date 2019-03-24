@@ -3,6 +3,19 @@
  * @override minimal-mistakes/search
  */
 
+
+
 .search-content {
-    background-color: $dubdeck-white;
+  background-color: $dubdeck-white;
+}
+
+.search__toggle-title {
+  display: inline-block;
+  float: left;
+  margin-right: $dubdeck-sp-2;
+}
+
+.search__toggle-icon {
+  display: inline-block;
+  float: left;
 }
