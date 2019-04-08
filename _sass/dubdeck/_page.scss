@@ -24,9 +24,20 @@
 }
 
 // Markdown format
-.PageContent {
+.page-content {
   clear: both;
   margin-top: $dubdeck-sp-5;
+
+  figure {
+    margin: $dubdeck-sp-4 $dubdeck-sp-0;
+    padding: $dubdeck-sp-0;
+
+    text-align: center;
+
+    figcaption {
+      @extend .dubdeck-f7-meta;
+    }
+  }
 
   h1, 
   h2, 
@@ -35,7 +46,6 @@
   h5, 
   h6,
   p {
-
     margin-bottom: $dubdeck-sp-0;
   }
 

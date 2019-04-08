@@ -1,0 +1,22 @@
+<div class="card-container{% if card.classes %}{{ card.classes | default: card.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+  <div class="card aspect-ratio aspect-ratio--3x4">
+    <div class="card__front">
+      <img src=
+        {% if include.card__front_path contains "://" %}
+          "{{ include.card__front_path }}"
+        {% else %}
+          "{{ include.card__front_path | absolute_url }}"
+        {% endif %}
+        alt="{% if include.alt %}{{ include.card__back_alt }}{% endif %}">
+    </div>
+    <div class="card__back">
+      <img src=
+        {% if include.card__back_path contains "://" %}
+          "{{ include.card__back_path }}"
+        {% else %}
+          "{{ include.card__back_path | absolute_url }}"
+        {% endif %}
+        alt="{% if include.alt %}{{ include.card__back_alt }}{% endif %}">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+/*
+ * DubDeck card
+ * Credit: https: //www.leveluptutorials.com/tutorials/css-experiments/card-flipping-effect-part-2
+ */
+
+.card-container {
+    overflow: auto;
+    clear: both;
+
+    margin: $dubdeck-sp-4 0;
+
+    // adds depth to the 3d card effect
+    perspective: 700px;
+    -webkit-perspective: 700px;
+
+    .card {
+        position: relative;
+        margin: auto;
+
+        transition: all 0.5s ease-in-out;
+        transform-style: preserve-3d;
+
+        &:hover {
+            transform: rotateY(180deg);
+        }
+
+        &__front,
+        &__back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            backface-visibility: hidden;
+        }
+
+        &__back {
+            transform: rotateY(180deg);
+        }
+    }
+}

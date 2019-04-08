@@ -9,7 +9,7 @@ A jekyll website built using [Minimal-Mistakes](https://github.com/mmistakes/min
 * [Google Analytics Tracking](https://analytics.google.com/analytics/web)
 
 ## Style Guide
-Encouraged to follow the style guide below
+Encouraged to follow the style guide below. However, please keep your css names all lower case.
 * [Airbnb CSS/SCSS Guide](https://github.com/airbnb/css)
 
 ## Commands for running locally
