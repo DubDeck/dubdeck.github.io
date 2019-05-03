@@ -4,9 +4,11 @@
  */
 
 .card-container {
-    overflow: auto;
+    overflow: hidden;
     clear: both;
 
+    padding: 0 25%;
+    
     margin: $dubdeck-sp-4 0;
 
     // adds depth to the 3d card effect
