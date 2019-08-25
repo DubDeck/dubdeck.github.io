@@ -8,10 +8,6 @@ A jekyll website built using [Minimal-Mistakes](https://github.com/mmistakes/min
 * [Algolia Search Platform](https://www.algolia.com/)
 * [Google Analytics Tracking](https://analytics.google.com/analytics/web)
 
-## Style Guide
-Encouraged to follow the style guide below. However, please keep your css names all lower case.
-* [Airbnb CSS/SCSS Guide](https://github.com/airbnb/css)
-
 ## Commands for running locally
 To update gems `bundle update`\
 To build `bundle exec jekyll build --watch`\
